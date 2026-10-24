@@ -1,0 +1,4 @@
+$ npm audit --audit-level=high
+SCA: npm audit (production and development dependencies)
+Exit code: 0
+found 0 vulnerabilities

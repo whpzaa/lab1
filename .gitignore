@@ -1,0 +1,12 @@
+node_modules/
+data/
+reports/
+coverage/
+.env
+*.log
+.DS_Store
+Thumbs.db
+AGENTS.md
+cve/CVE-2022-34265/evidence/*.html
+__pycache__/
+*.pyc

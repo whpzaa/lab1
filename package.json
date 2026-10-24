@@ -1,0 +1,31 @@
+{
+  "name": "hdu-is-lab1-secure-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Secure REST API for HDU IS Lab 1 with JWT authentication, SQLi/XSS protection, and CI security scanning.",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "lint": "eslint .",
+    "check": "npm run lint && npm test"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "escape-html": "^1.0.3",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-security": "^3.0.1",
+    "supertest": "^7.3.1"
+  }
+}

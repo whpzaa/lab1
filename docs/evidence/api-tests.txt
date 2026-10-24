@@ -1,0 +1,20 @@
+
+> hdu-is-lab1-secure-api@1.0.0 test
+> node --test
+
+✔ health endpoint is public (33.5505ms)
+✔ login returns a JWT without leaking the password hash (15.553ms)
+✔ SQL injection in the login field does not bypass authentication (7.0176ms)
+✔ protected data endpoint rejects requests without a token (5.397ms)
+✔ protected data endpoint rejects invalid and wrongly signed JWTs (8.5268ms)
+✔ authenticated users can read data (8.0899ms)
+✔ creating a post escapes user-controlled HTML in the response (10.844ms)
+✔ post endpoint validates input and requires authentication (9.6466ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 313.283

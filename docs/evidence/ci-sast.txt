@@ -1,0 +1,4 @@
+$ npm run lint
+SAST: ESLint with eslint-plugin-security
+Exit code: 0
+Result: 0 errors, 0 warnings

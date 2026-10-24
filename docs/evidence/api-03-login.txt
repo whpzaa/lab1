@@ -1,0 +1,12 @@
+$ curl -sS -X POST http://localhost:3000/auth/login -H 'Content-Type: application/json' --data '{"login":"alice","password":"CorrectHorseBatteryStaple!42"}'
+HTTP status: 200
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5...REDACTED",
+  "tokenType": "Bearer",
+  "expiresIn": "15m",
+  "user": {
+    "id": 1,
+    "login": "alice",
+    "displayName": "Alice Demo"
+  }
+}
