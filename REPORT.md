@@ -8,7 +8,7 @@
 
 **Public Git repository:** https://github.com/whpzaa/lab1.git
 
-**Last successful pipeline run:** [FILL after the first push to GitHub]
+**Last successful pipeline run:** https://github.com/whpzaa/lab1/actions/runs/40097134201
 
 ## 1. Purpose
 
