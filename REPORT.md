@@ -65,7 +65,7 @@ Current local results:
 
 ![CI security scans](docs/evidence/ci-security.png)
 
-The screenshots in the GitHub Actions interface and the link to the last successful pipeline run must be added after the repository is pushed and the workflow has completed once.
+The workflow completed successfully after the first push to GitHub. The link to that run is given on the title page.
 
 ## 5. Selected CVE and Vulnerable Environment
 
@@ -173,9 +173,9 @@ The fixed container reports Django 4.0.6. A normal aggregation request still ret
 - [x] Vulnerable Vulhub environment launched and CVE reproduced.
 - [x] Root-cause analysis and fixed environment.
 - [x] Fixed behavior and regression testing evidence.
-- [ ] Public GitHub/GitLab repository link.
-- [ ] GitHub Actions screenshots and link to the successful pipeline run.
-- [ ] Title-page fields filled in.
+- [x] Public GitHub/GitLab repository link.
+- [x] GitHub Actions screenshots and link to the successful pipeline run.
+- [x] Title-page fields filled in.
 
 ## Appendix: Control Questions
 
